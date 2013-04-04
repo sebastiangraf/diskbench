@@ -2,10 +2,11 @@
 
 ## SETTINGS ##
 NUMBER_OF_TIMES_TO_RUN_EACH_JOB=3
-export TEST_SIZE="4096m"
-export TEST_FILENAME="fio_test_file"
+export TEST_SIZE="512m"
+export TEST_FILENAME="/dev/sda"
 export IO_DEPTH="256"
 export RUNTIME="3600"
+export TEST_DIRECTORY=./results
 
 # get time and create results folder
 YEAR=`date +%Y`
