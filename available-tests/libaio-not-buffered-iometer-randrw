@@ -11,6 +11,5 @@ ioengine=libaio
 iodepth=${IO_DEPTH}
 filename=/dev/sda
 runtime=${RUNTIME}
-directory=${TEST_DIRECTORY}
 time_based
 

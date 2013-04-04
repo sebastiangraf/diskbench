@@ -10,5 +10,4 @@ ioengine=sync
 iodepth=1
 filename=/dev/sda
 runtime=${RUNTIME}
-directory=${TEST_DIRECTORY}
 time_based
