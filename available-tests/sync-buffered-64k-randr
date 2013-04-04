@@ -8,6 +8,7 @@ direct=0
 size=${TEST_SIZE}
 ioengine=sync
 iodepth=1
-filename=${TEST_FILENAME}
-directory=${TEST_DIRECTORY}
+filename=/dev/sda
 runtime=${RUNTIME}
+directory=${TEST_DIRECTORY}
+time_based
