@@ -6,7 +6,7 @@ export TEST_SIZE="512m"
 export TEST_FILENAME="/dev/sda"
 export IO_DEPTH="256"
 export RUNTIME="3600"
-export TEST_DIRECTORY=./results
+export TEST_DIRECTORY="/home/sebi/diskbench/results"
 
 # get time and create results folder
 YEAR=`date +%Y`
