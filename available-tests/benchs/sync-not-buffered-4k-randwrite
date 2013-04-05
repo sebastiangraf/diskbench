@@ -1,0 +1,14 @@
+[global]
+description=Sync engine 4k blocks (Non-buffered I/O) Read-only
+
+[sync-not-buffered-4k-randwrite]
+bs=4k
+rw=randwrite
+direct=1
+buffered=0
+size=${TEST_SIZE}
+ioengine=sync
+iodepth=${IO_DEPTH}
+filename=/dev/sda
+runtime=${RUNTIME}
+time_based
